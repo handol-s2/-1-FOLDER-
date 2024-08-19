@@ -1,0 +1,134 @@
+ /*사용폰트
+ font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/*mv*/
+.mv_01 { background : url(../img/sub/mv.jpg) no-repeat center / cover; margin-top: 133px; width: 100%; height: 380px; font-size:0;}
+
+/*product*/
+.product { font-family: 'Noto Sans KR', sans-serif;} 
+.product li { float:left;}
+.product .inner { max-width: 1400px; margin: 0 auto;}
+.product_text > h2 { font-size: 28px; font-weight: 500; padding-bottom: 47px;}
+.product_text ul, .right_text { font-size: 16px;}
+
+/*pick_benner*/
+.pick_benner{ display: block; text-align: center; margin: 0 auto; padding: 18px 0 18px 0; font-size: 17px; width: 100%; background: #f5f5f5; 
+height: 100px; color:#707070; margin-top: 18px; position:relative; font-size:14px;}
+
+.pick_benner02 { display: block; text-align: center; margin: 0 auto; padding: 18px 0 18px 0; font-size: 17px; width: 100%; height: 90px; color:#707070; margin-top: 18px; position:relative; font-size:14px; background:#fff7a5; }
+
+.pick_benner span, .pick_benner02 span{ font-weight:bold; color:#111111;}
+
+/*read_more*/
+.pick_benner .read_more, .pick_benner02 .read_more{ border-bottom: 1px solid #707070; display: inline-block; padding-top: 17px; font-weight:500; color:#707070; font-size:14px;}
+
+/*read_button*/
+.pick_benner .read_button, .pick_benner02 .read_button{ font-size: 0; height: 1px; width: 11px; display: inline-block; background: #222; position: absolute; right: 5px; top: 12px;  transform: rotate(45deg); margin-right:5px;}
+
+.pick_benner .read_button02, .pick_benner02 .read_button02{ font-size: 0;  height: 1px; width: 11px; display: inline-block; background: #222; position: absolute; right: 5px; top: 12px;  transform:rotate(-45deg); margin-right:5px;}
+
+/*product_text*/
+.product_text { text-align:center; margin-top: 60px; margin-bottom: 60px; position: relative;}
+.product_text ul { display:inline-block; max-width: 918px;}
+
+.product_text li { float:left; padding:5px 15px 5px 15px; width: 102px; display: inline-block;}
+.product_text li a { position:relative; padding:4px;}
+.product_text li a:after { content:""; position:absolute;/*display:inline-block;*/
+background:#222; width: 0%; height:1px; left:0; opacity:0; bottom:-1px; transition: width 0.3s; transition-duration: 0.3s; }
+.product_text li a:hover:after{ width:100%; opacity:1;} 
+
+.product_text .right_text { display: block; right: 10px; margin-top: 20px; position:absolute;}
+/*.product_text .right_text:hover { transition-property: all; text-decoration:underline; transform: rotate(-360deg);  transition:.9s; transform:scaleX(1.1) scaleY(1.1);}
+
+.product_text  .right_text:after{ content: "";  position: absolute; left: 0; bottom: -10px; width: 0px; height: 2px; margin: 5px 0 0; transition: all 0.2s ease-in-out;  transition-duration: 0.3s; opacity: 0; background-color: #222;}
+
+.product_text  .right_text:hover:after{ width: 100%; opacity: 1;}*/
+
+.product_text .right_text  select { width: 110px; height: 26px;}
+
+/*puoduct_img*/
+.puoduct_img a { position:relative; float:left; margin-right: 8px; width: calc(20% - 32px / 5); display: inline-block;}
+
+.puoduct_img a:nth-child(5n){ margin-right: 0;}
+.puoduct_img img{ border:1px solid #a7a7a7; width: 100%;}
+.puoduct_img img:hover { border:1px solid;}
+
+.puoduct_img .text_box { padding-top: 10px; padding-bottom: 40px; padding-left: 5px; height: 150px; border}
+.puoduct_img h3 { font-size: 18px; font-weight: 500; padding-bottom: 8px; display: inline-block;}
+.puoduct_img p{  font-size: 13px;  padding-bottom: 5px;}
+
+.puoduct_img .title{ color: #a7a7a7; }
+.puoduct_img .price { color:#111; font-weight: 700; display: inline-block; font-size:15px; margin-top: 23px;}  
+
+.puoduct_img .second { display:none; position: absolute; left: 0; top:0; opacity:0; }
+
+.puoduct_img a > div:hover img { display:block;  transition:.5s; opacity:1; border-radius: 0   0  30%0; border:1px solid #d3d3d3; box-shadow: 5px 3px 5px rgb(0 0 0 / 7%);}
+
+.puoduct_img .click  { display: inline-block;  text-align: center; right: 0;  border-radius: 40px; border: 1px solid #f83563; width: 50px;  font-weight: 700; color: #f83563; font-size: 15px; display:inline-block; }
+.puoduct_img .click:hover { background:#f83563; color:#fff;} 
+
+/*bottom_read_more*/
+.bottom_read_more { margin: 0 auto; text-align: center; display:none;}
+.bottom_read_more a { display:inline-block; border: 1px solid #707070; width: 110px; height: 42px; text-align: center; padding-top: 10px; border-radius: 20px; }
+
+/*bottom_buttom*/
+.bottom .bottom_buttom { max-width: 100%; text-align: center; margin-top:70px; margin-bottom:70px;} 
+.bottom a { margin:0 auto;  padding: 11px; display: inline-block; height: auto; margin-top: 50px;}
+
+
+
+/*태블릿*/
+@media screen and (max-width: 1024px){
+	.mv_01 { height: 34.1796875vw;}
+	
+	/*puoduct_img*/
+	.puoduct_img a { margin-right: 8px; width: calc(33.33333333333333% - 16px / 3); padding-bottom: 8px; overflow: hidden; transition:.5s;}
+
+	.puoduct_img a:nth-child(5n){ margin-right: 8px;}
+	.puoduct_img a:nth-child(3n){ margin-right: 0;}
+	
+	.puoduct_img a > div:hover img { display:block; border:1px solid #a7a7a7;transition:.5s; opacity:1; border-radius: 0; transition:.5s;}
+	
+	.puoduct_img  { height:1923px; overflow: hidden;}
+	
+	/*bottom*/
+	.bottom_buttom { display:none;}
+	.bottom .inner { text-align:center; margin-top: 50px;}	
+	.bottom_read_more { display:inline-block; margin-bottom: 70px; width: 100%;}
+	
+}
+
+/*작은화면*/
+@media screen and (max-width: 770px){
+	.mv_01 {  height: 39.179688vw; margin-top: 57px;}
+	
+	/*pick_benner*/
+	.mv .pick_benner { display: block; text-align: center; margin: 0 auto;
+	font-size: 13px; width: 100%; background: #f5f5f5; height: 66px; padding-top: 15px; color:#707070; margin-top: 18px; position:relative;}
+	.mv .pick_benner02 { height: 66px; font-size: 13px; padding-top: 15px}
+	
+	.pick_benner .read_more, .pick_benner02 .read_more  { padding-top:9px;}
+		
+	.product_text ul { display: flex;}
+
+}
+
+
+/*작은화면*/
+@media screen and (max-width: 550px){
+	/*puoduct_img*/
+	.puoduct_img a { margin-right: 8px; width: calc(50% - 8px/2); margin-bottom:0;}
+	.puoduct_img a:nth-child(3n), .puoduct_img a:nth-child(5n){ margin-right: 8px;}
+	.puoduct_img a:nth-child(2n){ margin-right: 0;}
+	
+	.product_text { margin-top:45;}
+	
+	.product_text > h2 { font-size: 26px;}
+}
+
+
+/*모바일*/
+@media screen and (max-width: 375px){
+	.mv_01 { background: url(../img/sub/mv_mobile.jpg) no-repeat center / cover; height: 74.66666666666667vw; }
+}

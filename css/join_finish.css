@@ -1,0 +1,54 @@
+ /*사용폰트
+ font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/*join_finish*/
+.join_finish { border: 1px solid #707070; max-width: 1000px; height: 100%; text-align: center; font-family: 'Noto Sans KR', sans-serif; padding: 64px 20px 64px 20px;  margin: 0 auto; margin-top:233px; margin-bottom: 100px;}
+
+.join_finish br { display:none;}
+
+/*text*/
+.join_finish  h2 { font-size:23px; padding-top: 40px; padding-bottom: 21px;}
+.join_finish p {  font-size:14px; font-weight:400;}
+.join_finish .Second { margin-top:10px; }
+.join_finish span { font-weight: 700; }
+   
+ /*login_box*/
+ .join_finish .login_box, .home {  display: inline-block; width: 159px; height: 39px;
+border: 1px solid; background: #222; color: #fff; text-align: center; line-height: 2.2;}
+	
+.join_finish .login_box:hover, .home:hover { background:#69e742; color:#fff;}
+	
+ /*button*/	
+ .join_finish .button { padding-top: 43px; }
+ 
+ 
+@media screen and (max-width:1024px){
+	.join_finish{ max-width: 90vw;}
+}
+
+@media screen and (max-width:770px){
+	.join_finish { margin-top: 170px; padding:40px 20px 40px 20px;}
+	
+	.join_finish br { display:block;}
+	.join_finish p { line-height: 1.6;}
+	.join_finish h2 { font-size:20px;}
+}
+	
+
+@media screen and (max-width:550px){
+	.join_finish img { width: 147px;}
+	.join_finish h2 { font-size:18px; padding-top: 37px;}
+
+	.join_finish .login_box, .home { width: 130px;}
+}
+
+
+@media screen and (max-width:375px){
+ .join_finish h2 { font-size:15px;}
+ .join_finish br { display: none;}
+ 
+ .join_finish .login_box, .home { width: 130px;}
+}
+
+

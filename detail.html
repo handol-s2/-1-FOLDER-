@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>FOLDER</title>
+	<!--반응형 작업시 반드시 들어가야하는 뷰포트 소스-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=1">
+	
+	<!--로봇 검색엔진 설정-->
+	<meta name="robots" content="index, follow">
+	
+	<!--노토산스 폰트-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<!--folder파비콘-->
+	<link rel="shortcut icon" href="img/folder.ico" type="image/x-icon">
+	<!--리셋-->
+	<link rel="stylesheet" href="css/reset.css">
+	<!--공통 헤더/푸터-->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<!--메인-->
+	<link rel="stylesheet" href="css/detail.css">
+	<!--스와이퍼-->
+	<link rel="stylesheet" href="css/swiper.min.new.css">
+	<!--detail 스와이퍼-->
+	<link rel="stylesheet" href="css/swiper.detail.css">
+	<!--jquery core-->
+	<script src="js/jquery-3.6.0.js"></script>
+	<!--js menu-->
+	<script src="js/menu.js"></script>
+	<!--detail js-->
+	<script src="js/detail.js"></script>
+	<!-- Swiper JS -->
+	<script src="js/swiper.min.new.js"></script>
+	<!--js swiper main-->
+	<script src ="js/swiper.main.js"></script>
+	<!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<!--top-->
+			<div class="top">
+				<nav class="clear">
+					<ul class="top_menu">
+						<li><a href="login.html">로그인</a></li>
+						<li><a href="#">주문조회</a></li>
+						<li><a href="#">마이쇼핑</a></li>
+						<li><a href="#">게시판</a></li>
+						<li><a href="#">고객센터</a></li>
+					</ul>	
+				</nav>
+			</div>
+			<!--gnb-->
+			<div class="gnb"> 
+				<div class="gnb_inner">
+					<a href="./index.html" class="top_logo">
+						<img src="img/folder_logo.png" alt="폴더 로고">
+					</a>
+					<div class="search">
+						<input type="text" class="search" id="search" placeholder="컨버스 런스타 / 나이키 바람막이">
+					</div>
+					<div class="sub_bg">메뉴 배경</div>
+					<nav class="main_menu_warp clear">
+						<!--main_menu_web-->	
+						<ul class="main_menu clear">
+							<li><a href="#">NEW</a></li>	
+							<li class="depth1"><a href="sub.html">MEN</a>
+								<div class="sub_menu_warp inner">
+									<ul class="sub_list">
+										<li><a href="sub.html">신발</a></li>
+										<li><a href="#">운동화</a></li>
+										<li><a href="#">런닝화</a></li>
+										<li><a href="#">스니커즈</a></li>
+										<li><a href="#">캔버스화</a></li>
+										<li><a href="#">슬립온</a></li>
+										<li><a href="#">로퍼</a></li>
+										<li><a href="#">뮬</a></li>
+										<li><a href="#">샌들</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">의류</a></li>
+										<li><a href="#">긴팔티셔츠</a></li>
+										<li><a href="#">반팔티셔츠</a></li>
+										<li><a href="#">후드</a></li>
+										<li><a href="#">민소매</a></li>
+										<li><a href="#">맨투맨</a></li>
+										<li><a href="#">자켓/점퍼</a></li>
+										<li><a href="#">반바지</a></li>
+										<li><a href="#">레깅스</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">잡화</a></li>
+										<li><a href="#">가방</a></li>
+										<li><a href="#">모자</a></li>
+										<li><a href="#">안경</a></li>
+										<li><a href="#">머플러/장갑</a></li>
+										<li><a href="#">벨트</a></li>
+										<li><a href="#">양말</a></li>
+										<li><a href="#">향수</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">용품</a></li>
+										<li><a href="#">의류용품</a></li>
+										<li><a href="#">신발용품</a></li>
+										<li><a href="#">관리용품</a></li>
+										<li><a href="#">스포츠</a></li>
+										<li><a href="#">취미</a></li>
+										<li><a href="#">문구</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>		
+								</div>
+							</li>
+							<li class="depth1"><a href="#">WOMEN</a>
+								<div class="sub_menu_warp inner">
+									<ul class="sub_list">
+										<li><a href="#">신발</a></li>
+										<li><a href="#">운동화</a></li>
+										<li><a href="#">런닝화</a></li>
+										<li><a href="#">스니커즈</a></li>
+										<li><a href="#">캔버스화</a></li>
+										<li><a href="#">슬립온</a></li>
+										<li><a href="#">로퍼</a></li>
+										<li><a href="#">뮬</a></li>
+										<li><a href="#">샌들</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">의류</a></li>
+										<li><a href="#">긴팔티셔츠</a></li>
+										<li><a href="#">반팔티셔츠</a></li>
+										<li><a href="#">후드</a></li>
+										<li><a href="#">민소매</a></li>
+										<li><a href="#">맨투맨</a></li>
+										<li><a href="#">자켓/점퍼</a></li>
+										<li><a href="#">반바지</a></li>
+										<li><a href="#">레깅스</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">잡화</a></li>
+										<li><a href="#">가방</a></li>
+										<li><a href="#">모자</a></li>
+										<li><a href="#">안경</a></li>
+										<li><a href="#">머플러/장갑</a></li>
+										<li><a href="#">벨트</a></li>
+										<li><a href="#">양말</a></li>
+										<li><a href="#">향수</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">용품</a></li>
+										<li><a href="#">의류용품</a></li>
+										<li><a href="#">신발용품</a></li>
+										<li><a href="#">관리용품</a></li>
+										<li><a href="#">스포츠</a></li>
+										<li><a href="#">취미</a></li>
+										<li><a href="#">문구</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="depth1"><a href="#"> KIDS </a>
+									<div class="sub_menu_warp inner">
+									<ul class="sub_list">
+										<li><a href="#">신발</a></li>
+										<li><a href="#">운동화</a></li>
+										<li><a href="#">런닝화</a></li>
+										<li><a href="#">스니커즈</a></li>
+										<li><a href="#">캔버스화</a></li>
+										<li><a href="#">슬립온</a></li>
+										<li><a href="#">로퍼</a></li>
+										<li><a href="#">뮬</a></li>
+										<li><a href="#">샌들</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">의류</a></li>
+										<li><a href="#">긴팔티셔츠</a></li>
+										<li><a href="#">반팔티셔츠</a></li>
+										<li><a href="#">후드</a></li>
+										<li><a href="#">민소매</a></li>
+										<li><a href="#">맨투맨</a></li>
+										<li><a href="#">자켓/점퍼</a></li>
+										<li><a href="#">반바지</a></li>
+										<li><a href="#">레깅스</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">잡화</a></li>
+										<li><a href="#">가방</a></li>
+										<li><a href="#">모자</a></li>
+										<li><a href="#">안경</a></li>
+										<li><a href="#">머플러/장갑</a></li>
+										<li><a href="#">벨트</a></li>
+										<li><a href="#">양말</a></li>
+										<li><a href="#">향수</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>
+									<ul class="sub_list">
+										<li><a href="#">용품</a></li>
+										<li><a href="#">의류용품</a></li>
+										<li><a href="#">신발용품</a></li>
+										<li><a href="#">관리용품</a></li>
+										<li><a href="#">스포츠</a></li>
+										<li><a href="#">취미</a></li>
+										<li><a href="#">문구</a></li>
+										<li><a href="#">기타</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">EVENT</a></li>
+							<li><a href="#">BEST</a></li>
+							<li><a href="#">CREW</a></li>
+						</ul>
+					</nav>
+					<!--모바일에서 보이는 햄버거 메뉴-->
+					<a href="#" class="mobile_btn">
+						<span>햄버거 메뉴바</span>
+						<span>햄버거 메뉴바</span>
+						<span>햄버거 메뉴바</span>
+					</a>	
+					<!--모바일에서 보이는 탑 메뉴-->
+					<div class="mobile_menu">
+						<a href="#">장바구니</a>
+						<a href="#">찜하기</a>
+						<a href="#">검색</a>
+					</div>
+					<nav class="mobile_nav">
+						<!--모바일에서 보이는 탑메뉴_상단-->
+						<ul class="sub_menu_mobile_01">
+							<li><a href="login.html">로그인</a></li>
+							<li><a href="join.html">회원가입</a></li>
+							<li><a href="#">주문조회</a></li>
+						</ul>
+						<ul class="mobile_menu_warp clear">
+							<li><a href="#" class="m">NEW</a></li>
+							<li><a href="#" class="m">MEN</a>
+								<ul class="depth_menu">
+									<li><a href="sub.html" class="#">전체보기</a></li>
+									<li><a href="#" class="m">신발
+											<img src="img/mobile_button.png" alt="모바일 버튼">
+										</a>
+										<ul>
+											<li><a href="#">운동화</a></li>
+											<li><a href="#">런닝화</a></li>
+											<li><a href="#">스니커즈</a></li>
+											<li><a href="#">캔버스화</a></li>
+											<li><a href="#">슬립온</a></li>
+											<li><a href="#">로퍼</a></li>
+											<li><a href="#">뮬</a></li>
+											<li><a href="#">샌들</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">의류<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">긴팔티셔츠</a></li>
+											<li><a href="#">반팔티셔츠</a></li>
+											<li><a href="#">후드</a></li>
+											<li><a href="#">민소매</a></li>
+											<li><a href="#">맨투맨</a></li>
+											<li><a href="#">자켓/점퍼</a></li>
+											<li><a href="#">반바지</a></li>
+											<li><a href="#">긴바지</a></li>
+											<li><a href="#">레깅스</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">잡화<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">가방</a></li>
+											<li><a href="#">모자</a></li>
+											<li><a href="#">안경</a></li>
+											<li><a href="#">머플러/장갑</a></li>
+											<li><a href="#">벨트</a></li>
+											<li><a href="#">양말</a></li>
+											<li><a href="#">향수</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">용품<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">의류용품</a></li>
+											<li><a href="#">신발용품</a></li>
+											<li><a href="#">관리용품</a></li>
+											<li><a href="#">스포츠</a></li>
+											<li><a href="#">취미</a></li>
+											<li><a href="#">문구</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>						
+							<li><a href="#" class="m">WOMEN</a>
+								<ul class="depth_menu">
+									<li>
+									<a href="#" class="m">신발<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">운동화</a></li>
+											<li><a href="#">런닝화</a></li>
+											<li><a href="#">스니커즈</a></li>
+											<li><a href="#">캔버스화</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">의류<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">긴팔티셔츠</a></li>
+											<li><a href="#">반팔티셔츠</a></li>
+											<li><a href="#">후드</a></li>
+											<li><a href="#">민소매</a></li>
+											<li><a href="#">맨투맨</a></li>
+											<li><a href="#">자켓/점퍼</a></li>
+											<li><a href="#">반바지</a></li>
+											<li><a href="#">긴바지</a></li>
+											<li><a href="#">레깅스</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">잡화<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">가방</a></li>
+											<li><a href="#">모자</a></li>
+											<li><a href="#">안경</a></li>
+											<li><a href="#">머플러/장갑</a></li>
+											<li><a href="#">벨트</a></li>
+											<li><a href="#">양말</a></li>
+											<li><a href="#">향수</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">용품<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">의류용품</a></li>
+											<li><a href="#">신발용품</a></li>
+											<li><a href="#">관리용품</a></li>
+											<li><a href="#">스포츠</a></li>
+											<li><a href="#">취미</a></li>
+											<li><a href="#">문구</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="m">KIDS</a>
+									<ul class="depth_menu">
+									<li><a href="#" class="m">신발<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">운동화</a></li>
+											<li><a href="#">런닝화</a></li>
+											<li><a href="#">스니커즈</a></li>
+											<li><a href="#">캔버스화</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">의류<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">긴팔티셔츠</a></li>
+											<li><a href="#">반팔티셔츠</a></li>
+											<li><a href="#">후드</a></li>
+											<li><a href="#">민소매</a></li>
+											<li><a href="#">맨투맨</a></li>
+											<li><a href="#">자켓/점퍼</a></li>
+											<li><a href="#">반바지</a></li>
+											<li><a href="#">긴바지</a></li>
+											<li><a href="#">레깅스</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">잡화<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">가방</a></li>
+											<li><a href="#">모자</a></li>
+											<li><a href="#">안경</a></li>
+											<li><a href="#">머플러/장갑</a></li>
+											<li><a href="#">벨트</a></li>
+											<li><a href="#">양말</a></li>
+											<li><a href="#">향수</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="m">용품<img src="img/mobile_button.png" alt="모바일 버튼"></a>
+										<ul>
+											<li><a href="#">의류용품</a></li>
+											<li><a href="#">신발용품</a></li>
+											<li><a href="#">관리용품</a></li>
+											<li><a href="#">스포츠</a></li>
+											<li><a href="#">취미</a></li>
+											<li><a href="#">문구</a></li>
+											<li><a href="#">기타</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="m">EVENT</a></li>
+							<li><a href="#" class="m">BEST</a></li>
+							<li><a href="#" class="m">CREW</a></li>								
+						</ul>
+						<!--모바일에서 보이는 메뉴 하단-->
+						<ul class="sub_menu_mobile_02">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">고객센터</a></li>
+							<li><a href="#">회원혜택</a></li>
+						</ul>	
+					</nav>		
+				</div>
+			</div>
+		</header>
+		<div class="contents">
+			<section class="top">
+				<div class="inner clear">
+					<div class="left_product">
+						<div class="swiper mySwiper2">
+							  <div class="swiper-wrapper">
+								<div class="swiper-slide">
+								  <img src="img_detail/main.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								 <img src="img_detail/main02.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main03.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								 <img src="img_detail/main04.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main05.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main06.jpg" alt="main_img">
+								</div>
+							  </div>
+							<!--  <div class="swiper-button-next"></div>
+							  <div class="swiper-button-prev"></div>-->
+						</div>
+						<div thumbsSlider="" class="swiper mySwiper">
+						    <div class="swiper-wrapper">
+								<div class="swiper-slide">
+								  <img src="img_detail/main.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								 <img src="img_detail/main02.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main03.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								 <img src="img_detail/main04.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main05.jpg" alt="main_img">
+								</div>
+								<div class="swiper-slide">
+								<img src="img_detail/main06.jpg" alt="main_img">
+								</div>
+							  </div>
+						</div>
+					</div>
+					<div class="top_text">
+						<h2>Nike</h2>
+						<p class="name">Nike Dunk Low Retro Grey Fog</p>
+						<p>나이키 덩크 로우 레트로 그레이 포그</p>
+						<p class="price">291,000원</p>
+						<table border="1">
+							<tr><!--table row-->
+								<td>통합멤버십 혜택</td><!--table data-->
+								<td>멤버십 회원 가입 시 5,000P 즉시 적립</td>
+							</tr>
+							<tr>
+								<td>카드혜택</td>
+								<td>무이자 할부</td>
+							</tr>
+							<tr>
+								<td>배송정보</td>
+								<td>빠른배송 5,000 원</td>
+							</tr>
+							<tr>
+								<td rowspan="2"></td>
+								<td>일반배송 무료</td>
+							</tr>
+						</table>	
+						<div class="size">
+							<p class="size_02">사이즈</p>
+							<select>
+								<option value="*" selected=""  link_image="">[필수] 옵션을 선택해 주세요</option>
+								<!--style="background:#FFCCFF"--> 
+								<option>250</option>
+								<option>255</option>
+								<option>260</option>
+								<option>265</option>
+								<option>270</option>
+								<option>275</option>
+								<option>280</option>
+							</select>
+						</div>
+							<div class="Number">
+							<p class="size_02">수량</p>
+							<input type='button' onclick='count("minus")' value='-'/>
+							<span id='result'>0</span>
+							<input type='button'onclick='count("plus")' value='+'/>
+						</div>
+						<div class="top_button clear">
+							<a href="#" class="buy">바로구매하기</a>
+							<a href="#" class="naver"><img src="img_detail/naver_pay.jpg" align="center">구매</a>
+							<a href="#" class="bag">장바구니</a>
+						</div>
+						<div>
+							<a href="#" class="event">
+								<img src="img_detail/event.png" alt="event"><p>지금 바로 폴더 앱 다운로드 하면<br> <span> 1만원/5천원 전용 할인 쿠폰 </span> 증정!</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="middle">
+				<div class="inner">
+					<div class="middle_text">
+						<a href="#">상품정보</a>
+						<a href="#">상품후기</a>
+						<a href="#">상품문의</a>
+						<a href="#">교환/환불 안내</a>
+					</div>
+					<div>
+						<div class="middle_explain">
+							<h2>나이키 블레이저 미드 ‘77 점보를 만나보세요.</h2>
+							<img src="img_detail/nike01.jpg" alt="nike01">
+							<h3>대담한 디자인</h3>
+							<p>과감한 성격과 개성에 어울리는 디자인을 만나보세요. 
+								나이키 블레이저 미드 ‘77 점보는<br>라인 밖으로 과감하게 도출된 
+								오버사이즈 스우시 디자인으로 한층 자신감 넘치는 룩을 선사해줍니다.<br> 
+								새로운 블레이저 미드 ‘77 점보로 특별하게 개성을 표현해보세요.
+							</p>
+						</div>
+						<div class="middle_explain">
+							<img src="img_detail/nike02.jpg" alt="nike02">
+							<h3>다재다능한 클래식</h3>
+							<p> 새로운 스타일을 완성해보세요. 과감한 디자인의 블레이저 미드
+							 ‘77 점보는 스타일링에 따라<br>나만의 새로움을 연출할 수도 있습니다. 
+							클래식한 신발에 스티치 가죽 오버레이와 발끝에 <br>
+							  부드러운 스웨이드 악센트가 더해져 색다른 핏을 선사해줍니다.
+							</p>
+						</div>
+						<div class="middle_explain">
+							<img src="img_detail/nike03.jpg" alt="nike03">
+							<h3>신고 벗기 쉬운 신발</h3>
+							<p> 블레이저 미드 ‘77 점보의 신축성 있는 뒤꿈치로 간편하고 빠르게 신고 벗을 수 있습니다.
+							</p>
+						</div>						
+					</div>
+					<div class="middle_02">
+						<p class="first">상품정보제공 고시</p>
+						<div class="product_info clear">
+							<div>
+								<span class="name">소재</span>
+								<span>상세페이지 참조</span>
+							</div>
+							<div>
+								<span class="name">색상</span>
+								<span>화이트</span>
+							</div>
+							<div>
+								<span class="name">A/S 책임자</span>
+								<span>상세페이지 참조</span>
+							</div>
+							<div>
+								<span class="name">제조자</span>
+								<span>상세페이지 참조</span>
+							</div>
+							<div>
+								<span class="name">제조국</span>
+								<span>상세페이지 참조</span>
+							</div>
+							<div>
+								<span class="name">제조년월</span>
+								<span>상세페이지 참조</span>
+							</div>
+							<div>
+								<span class="name">품질보증기준</span>
+								<span>본 제품은 정부 고시 소비자분쟁해결 기준에 의거하여 보상해드립니다. (품질보증기간 : 구입일로부터 6개월 이내)</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<section class="bottom_product">	
+				<div class="inner swiper-container">
+					<p class="first">추천상품</p>
+					<div class="swiper-wrapper">
+						<a href="#" class="bottom_img swiper-slide">
+							<img src="img_detail/nike02_shoes03.jpg" alt="main_img">
+							<div>
+								<span>Nike<br>나이키 블레이저 미드<br> '77 점보 화이트 앤 블랙<br>129,000원</span>
+							</div>
+						</a>
+						<a href="#" class="bottom_img swiper-slide">
+							<img src="img_detail/nike02_shoes04.jpg" alt="main_img">
+							<div>
+								<span>Nike<br>나이키 블레이저 미드<br> '77 점보 화이트 앤 블랙<br>129,000원</span>
+							</div>
+						</a>
+						<a href="#" class="bottom_img swiper-slide">
+							<img src="img_detail/nike02_shoes05.jpg" alt="main_img">
+							<div>
+								<span>Nike<br>나이키 블레이저 미드<br> '77 점보 화이트 앤 블랙<br>129,000원</span>
+							</div>
+						</a>
+						<a href="#" class="bottom_img swiper-slide">
+							<img src="img_detail/nike02_shoes02.jpg" alt="main_img">
+							<div>
+								<span>Nike<br>나이키 블레이저 미드<br> '77 점보 화이트 앤 블랙<br>129,000원</span>
+							</div>
+						</a>
+						<a href="#" class="bottom_img swiper-slide">
+							<img src="img_detail/bottom_nike01.jpg" alt="main_img">
+							<div>
+								<span>Nike<br>나이키 블레이저 미드<br> '77 점보 화이트 앤 블랙<br>129,000원</span>
+							</div>
+						</a>
+					</div>	
+				</div>	
+			</section>
+		</div><!--contents-->
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="gray_footer swiper-container">	
+				<div class="inner clear swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="gray_footer_left">
+							<a href="#">
+								<span>[공지사항]</span>
+								<span>FOLDER 매거진 구독 패션 뉴스 및 트렌드소식을 받아보세요</span>
+							</a>
+						</div>
+						<div class="gray_footer_right">
+							<a href="#">더보기 ></a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="gray_footer_left">
+							<a href="#">
+								<span>[이벤트]</span>
+								<span>폴더 블랙 프라이데이! 하루 3번 타임 어택 확인하기</span>
+							</a>
+						</div>
+						<div class="gray_footer_right">
+							<a href="#">더보기 ></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!--black-->
+			<div class="black_footer">
+				<div class="inner clear">
+					<div class="info_left">
+						<h2><a href="index.html"><img src="img/folder_footer_logo.png" alt="폴더 하단 로고"></a></h2>
+						<p><span>상호명 : (주)이랜드월드패션사업부</span><br>
+						<span>대표자명 : 최운식, 김일규</span><br>
+						<span>사업자등록번호 : 113-85-19030 </span></p>
+						<span>통신판매업신고 : 금천구청 제2005-01053 </span><br>
+						<span>사업장 주소 : 서울 금천구 가산디지털1로 159 <br>(가산동, 이랜드가산동사옥) 이랜드패션사업부</span><br>
+						<address><span>E-mail : webmaster@folderstyle.com </span><br>
+						<span>개인정보보호책임자 : 최운식 <br> 호스팅 서비스 제공: 이랜드 시스템스 </span></address>
+						<span>고객센터 1566-8221</span>
+					</div>
+					<div class="info_right">
+						<h3>고객센터</h3>
+						<p>1566-8221</p>
+						<span>평일  09:00 ~ 12:00 / 13:00 ~ 20:00</span><br>
+						<span>토요일 10:00 ~ 14:00 (공휴일 휴무)</span>
+						<div class="info_right_bottom">
+							<a href="https://www.instagram.com/folder_korea/?hl=ko" target="_blank">
+								<img src="img/instagram.png" alt="인스타그램"></a>
+							<a href="https://www.youtube.com/c/folderlog/featured" target="_blank">
+								<img src="img/youtube.png" alt="유튜브"></a>
+							<a href="https://www.facebook.com/folderkorea" target="_blank">
+								<img src="img/facebook.png" alt="페이스북"></a>
+						</div>	
+					</div>
+					<div class="info_bottom">
+						<ul>
+							<li><a href="#">사업자정보확인</a></li>
+							<li><a href="#">개인정보처리방침</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">고객센터</a></li>
+							<li><a href="#">입점/제휴 문의</a></li>
+							<li><a href="#">오프라인 매장</a></li>
+						</ul>
+						<span>회색라인</span> 
+						<p>특정 브랜드의 상품에 있어 폴더는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다. <br>Copyright © 2021 ㈜이랜드월드 all rights reserved.</p>
+						<div class="gray_right">
+							<img src="img/lg_icon.png" alt="log_cion">
+							<p>구매안전(에스크로)서비스</p>
+							<a href="#" class="gray_box">임직원인증</a>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div> 
+		<!--fixed-->
+		<a href="#" class="bottom_arrow">
+		<img src="img/fiedx.png" alt="하단 화살표"></a>
+	</footer>
+</body>
+</html>

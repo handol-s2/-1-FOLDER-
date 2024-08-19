@@ -1,0 +1,127 @@
+ /*사용폰트
+ font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/*메인페이지 콘텐츠*/
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*top_box*/
+.join .top_box { margin-bottom: 24px;}
+.join .top_box p { font-size:15px;}
+.join .top_box img { padding-bottom: 21px;}
+.join .top_box { text-align:center;  padding-bottom: 30px;}
+
+.join { max-width: 490px; height: 100%;border: 1px solid #707070; margin: 0 auto;  margin-top: 220px; margin-bottom: 90px;}
+.join .inner { padding:75px 30px; font-family: 'Noto Sans KR', sans-serif;}
+
+
+/*button*/
+.join .button { width:215px; height:47px; background:#222; text-align:center; color:#fff; line-height:2.9; margin:0 auto; margin-top:70px; display: block;}
+.join .button:hover { background:#69e742;}
+.join .button span { text-align:center; color: #a7a7a7; font-size: 13px; display:block; margin-top:14px;}
+
+/*join_box*/
+.join .join_box { margin-bottom: 70px;/* border: 1px solid orange;*/}
+.join .join_box li , .agree_box li { list-style:none; font-size:14px;  line-height: 2.5; /*border: 1px solid #eeeded; */font-weight: 500; }
+
+.join .join_box li { border: 1px solid #fff;}
+
+.join_box h3 { margin-bottom: 20px; font-weight: bold;}
+.join .join_box h3:after { content: ""; display: inline-block; width: 100%; height: 1px; background: #222; margin-top: 20px;}
+
+/*join_text*/
+.join .join_box .join_text > input { position: inherit; max-width: 300px; width:100%; height: 33px; border-style:none; border-bottom: 1px solid #dadada; background: none; float: right; margin-right: 11px; border-collapse:collapse; text-indent: 10px; display: inline-block;}
+
+.join .join_box .join_text > input:focus { border:1px solid #111; border-radius: 0; appearance: none; outline:none;}
+
+
+/*agree_box*/
+.join .agree_box . { padding-top: 61px;}
+.join .agree_box > span { font-size:12px;}
+
+.join .agree_box h3 { margin-bottom: 20px; font-weight: bold; display: inline-block;}
+
+.join .agree_box li:first-child { background: #f4f4f4; border-bottom: 1px solid #d3d3d3; border-top:1px solid #111;}
+.join .agree_box .agree_list a { display:inline-block; float:right; font-size: 12px; padding-right: 8px; font-weight: 300;}
+.join .agree_box .agree_list span img { vertical-align: middle; padding-left: 5px;}
+.join .agree_box li { border-bottom:1px solid #dadada; padding-top: 2px; padding-bottom: 2px;} 
+.join .agree_box .agree_list > li { padding-left: 5px;}
+/* .agree_list .check_under { display:none;} */
+
+
+/*checkbox*/
+.agree_box checkbox { width: 20px; height: 20px; border: 2px solid #bcbcbc; cursor: pointer;}
+.join .agree_box input { display:none;}
+
+input[type=checkbox].checker:checked + label { 
+display: inline-block; 
+cursor: pointer; 
+line-height: 15px; 
+padding-left: 22px; 
+background:url("../img_join/click.jpg")no-repeat;
+margin-left: 4px;
+}
+
+input[type='checkbox']+label {
+	display: inline-block; 
+	cursor: pointer; 
+	line-height: 15px; 
+	padding-left: 22px; 
+	margin-left: 4px;
+    background: url("../img_join/none_click.png") no-repeat;	
+}
+
+
+/*check_under*/
+.check_under { font-size: 12px; line-height: 1.2; border: 1px solid #a7a7a7;padding: 7px;  overflow-y: scroll; height: 80px; font-weight: 300; margin-bottom: 10px;}
+
+.agree_list img { padding-left: 3px; padding-bottom: 11px;}
+.read_more .on img  { display: block; transition:1s;  transform: rotate( 180deg); padding-top: 12px;}
+
+
+/*태블릿*/
+@media screen and (max-width: 1024px){
+	footer { margin-top: 85px;}	
+}
+
+
+/*작은화면*/
+@media screen and (max-width: 770px){
+	.join { margin-top:100px;}
+}
+
+/*작은화면*/
+@media screen and (max-width: 550px){
+	.join { border:none;}
+	.join .inner { padding: 30px 30px 0;}
+	.join .join_box .join_text > input { float:none; display: block; max-width: 420px;}
+	.join .top_box p { font-size:14px;}
+}
+
+/*핸드폰*/
+@media screen and (max-width: 375px){
+	.join .inner { padding: 70px 15px;}
+	.join { margin-top: 50px; border:none; margin-bottom: 0;}
+	.top_box p { font-size:14px;}
+
+	footer { margin-top: 13px;}
+
+}
